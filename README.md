@@ -19,26 +19,3 @@
   - run the following commands in the folder project on different terminal tabs
     + `nodemon server/server.js` to start server on port 8000 (http://localhost:8000)
     + `json-server --watch db.json` to start json server used for api calls (https://github.com/typicode/json-server)
-
-## Implementation:
-  - Implement the design template/style.
-  - Make api calls to local db to render posts/comments
-  - Filter post by 'topic_type'(discovery, social) when the buttons are clicked
-  - Load just 10 post per call every time the user scrolls near the bottom of the page. Total posts -> 50
-  - Load the comments of post by 'topic_id' when the user click the posts comment button
-  - Try to show a specific ERROR message when there are no items (posts/comments) or when api error calls occur (!)
-
-## Api Calls:
-  - posts (http://localhost:3000/posts)
-  - comments (http://localhost:3000/comments)
-
-## UI style guide:
-  - Newsfeed header bar must always be fixed on the window
-  - Post comments will be opened using a slide-down animation
-  - Reproduce the design provided as you interpret it
-  - You can take (https://kuende.com) as an example
-
-  (You can use Avocode (https://avocode.com/) to inspect the psd design)
-
-
-Good Luck!
